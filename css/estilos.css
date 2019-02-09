@@ -50,6 +50,12 @@ width: 50%;
 width: 50%;
 }
 @media (max-width: 900px){
+header h1{
+  text-align:center;
+}
+.c1{
+  text-align:center;
+}
 .F2 {
 width: 100%;
 }
