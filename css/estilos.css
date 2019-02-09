@@ -1,14 +1,20 @@
 body{
   font-family: Dancing Script;
   background: #02010a;
+  -webkit-animation: slidein 2s;
+  animation: slidein 2s;
 }
 header{
   background:  #5b7989;
   border-radius: 10px 10px 0px 0px;
   width:100%;
   height: 100%;
-
 }
+@-webkit-keyframes slidein {
+    0%   {margin-top:  150px;}
+    60%  {margin-top: -5px}
+    100% {margin-top: 0px;}
+  }
 header h1{
   color: white;
   text-shadow: 2px 2px 2px #02010a;
