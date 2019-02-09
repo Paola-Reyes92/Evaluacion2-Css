@@ -1,0 +1,146 @@
+body{
+  font-family: Dancing Script;
+  background: #02010a;
+}
+header{
+  background:  #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  width:100%;
+  height: 99px;
+}
+header h1{
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+}
+.c1 {
+  text-align: right;
+}
+.c1 a{
+  color: white;
+}
+#Paisajes{
+  text-decoration: none;
+}
+section{
+  background: #d5c75f;
+  border-radius: 1px 1px 1px 1px;
+}
+
+.Fotos{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify content:space-around;
+}
+
+.F1 {
+width: 33%;
+}
+.F2 {
+width: 33%;
+}
+.F3 {
+width: 33%;
+}
+.F4 {
+width: 33%;
+}
+.F5 {
+width: 33%;
+}
+.F6 {
+width: 33%;
+}
+@media (max-width: 900px){
+.F1 {
+width: 100%;
+}
+.F2 {
+width: 100%;
+}
+.F3 {
+width: 100%;
+}
+.F4 {
+width: 100%;
+}
+.F5 {
+width: 100%;
+}
+.F6 {
+width: 100%;
+}
+}
+.F1 img{
+  width:300px;
+  height: 200px;
+  -webkit-filter:blur(10px);
+	filter:blur(10px);
+  border: 2px solid #02010a;
+  margin: 2px;
+}
+.F2 img{
+  width:300px;
+  height: 200px;
+  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+  border: 2px solid #02010a;
+  margin: 2px;
+}
+.F3 img{
+  width:300px;
+  height: 200px;
+  -webkit-filter:sepia(90%);
+	filter:sepia(90%);
+  border: 2px solid #02010a;
+  margin: 2px;
+}
+.F4 img{
+  width:300px;
+  height: 200px;
+  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+  border: 2px solid #02010a;
+  margin: 2px;
+}
+.F5 img{
+  width:300px;
+  height: 200px;
+  border: 2px solid #02010a;
+  margin: 2px;
+}
+.F6 img{
+  width:300px;
+  height: 200px;
+  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+  border: 2px solid #02010a;
+  margin: 2px;
+}
+#facebook img{
+  width: 20px;
+}
+#link img{
+  width: 20px;
+}
+#twitter img{
+  width: 20px;
+}
+#derechos img{
+  width: 3%;
+}
+.pie ul li{
+  list-style: none;
+}
+footer section{
+  background: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  width:100%;
+}
+.pie{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content:space-around;
+
+}
